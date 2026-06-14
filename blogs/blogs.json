@@ -1,0 +1,277 @@
+{
+  "provider": "pub.dev",
+  "url": "https://pub.dev/feed.atom",
+  "fetched": "2026-06-13",
+  "posts": [
+    {
+      "title": "v0.13.0 of terradart_core",
+      "url": "https://pub.dev/packages/terradart_core",
+      "published": "2026-06-14T00:26:51.616506Z",
+      "summary": "Core runtime for Dart-first Terraform synthesis with breaking changes moving TimeProvider to terradart_google"
+    },
+    {
+      "title": "v0.1.0 of turso_dart",
+      "url": "https://pub.dev/packages/turso_dart",
+      "published": "2026-06-14T00:17:40.561630Z",
+      "summary": "Dart binding for Turso with isolate-based async alternative for Flutter projects"
+    },
+    {
+      "title": "v1.0.8 of solidui",
+      "url": "https://pub.dev/packages/solidui",
+      "published": "2026-06-14T00:06:51.211897Z",
+      "summary": "UI library for building Solid applications with Flutter"
+    },
+    {
+      "title": "v0.18.1 of flutter_scene",
+      "url": "https://pub.dev/packages/flutter_scene",
+      "published": "2026-06-13T23:56:37.653068Z",
+      "summary": "Real-time 3D rendering engine for Flutter with description updates and pub.dev optimization"
+    },
+    {
+      "title": "v1.4.2 of media_metadata_plus",
+      "url": "https://pub.dev/packages/media_metadata_plus",
+      "published": "2026-06-13T23:29:25.349709Z",
+      "summary": "Read media metadata from multiple formats. Fixed video rotation handling via FFmpeg"
+    },
+    {
+      "title": "v3.2.0 of playwright_dart",
+      "url": "https://pub.dev/packages/playwright_dart",
+      "published": "2026-06-13T23:19:12.862759Z",
+      "summary": "Complete Dart port of Playwright with native logger, debug flag, and refactored architecture"
+    },
+    {
+      "title": "v0.2.0 of fractalup_radar_flutter",
+      "url": "https://pub.dev/packages/fractalup_radar_flutter",
+      "published": "2026-06-13T23:10:30.988832Z",
+      "summary": "Production observability SDK for Flutter with error capture, logs, metrics, and offline delivery"
+    },
+    {
+      "title": "v1.2.2 of content_flipper",
+      "url": "https://pub.dev/packages/content_flipper",
+      "published": "2026-06-13T23:08:17.462782Z",
+      "summary": "Customizable Flutter widget for smooth 3D content flipping with animations and gestures"
+    },
+    {
+      "title": "v0.5.0 of flutter_piper_tts",
+      "url": "https://pub.dev/packages/flutter_piper_tts",
+      "published": "2026-06-13T22:59:01.891154Z",
+      "summary": "Text-to-speech in Flutter using Piper TTS with isolate support to prevent UI jank"
+    },
+    {
+      "title": "v0.2.3 of dart_piper_tts",
+      "url": "https://pub.dev/packages/dart_piper_tts",
+      "published": "2026-06-13T22:58:57.419431Z",
+      "summary": "Text-to-speech in Dart using Piper TTS with fix for audio playback bleeding"
+    },
+    {
+      "title": "v0.0.5+2 of fx_dio",
+      "url": "https://pub.dev/packages/fx_dio",
+      "published": "2026-06-13T22:48:24.642358Z",
+      "summary": "fx dio project package"
+    },
+    {
+      "title": "v1.3.0 of veris_capture",
+      "url": "https://pub.dev/packages/veris_capture",
+      "published": "2026-06-13T22:16:52.080243Z",
+      "summary": "On-device face capture with liveness detection for iOS and Android with fixes for feature flags"
+    },
+    {
+      "title": "v0.2.0 of adaptive_scaffold_router",
+      "url": "https://pub.dev/packages/adaptive_scaffold_router",
+      "published": "2026-06-13T22:04:39.385623Z",
+      "summary": "Material 3 adaptive navigation scaffold with go_router support and Cupertino navigation"
+    },
+    {
+      "title": "v1.0.4 of fluent_editor",
+      "url": "https://pub.dev/packages/fluent_editor",
+      "published": "2026-06-13T21:53:16.734457Z",
+      "summary": "Rich word processor for Flutter with text editing, tables, images, and export to multiple formats"
+    },
+    {
+      "title": "v1.6.0 of flutter_carplay",
+      "url": "https://pub.dev/packages/flutter_carplay",
+      "published": "2026-06-13T21:51:24.367412Z",
+      "summary": "Flutter apps on Apple CarPlay and Android Auto with Swift Package Manager support added"
+    },
+    {
+      "title": "v0.1.1 of flutter_esptool",
+      "url": "https://pub.dev/packages/flutter_esptool",
+      "published": "2026-06-13T21:48:36.687886Z",
+      "summary": "Dart/Flutter port of esptool for ESP8266/ESP32 programming with professional GitHub automation"
+    },
+    {
+      "title": "v0.18.0 of flutter_scene",
+      "url": "https://pub.dev/packages/flutter_scene",
+      "published": "2026-06-13T19:44:27.106305Z",
+      "summary": "General-purpose realtime 3D rendering library with offscreen render targets"
+    },
+    {
+      "title": "v1.3.1 of funx",
+      "url": "https://pub.dev/packages/funx",
+      "published": "2026-06-13T19:35:27.437690Z",
+      "summary": "Composable function decorators with README improvements and resource links"
+    },
+    {
+      "title": "v2.0.0 of qoreidsdk",
+      "url": "https://pub.dev/packages/qoreidsdk",
+      "published": "2026-06-13T19:12:36.053807Z",
+      "summary": "QoreID Flutter plugin with sessionToken-based SDK initialization"
+    },
+    {
+      "title": "v10.1.0 of date_time_plus",
+      "url": "https://pub.dev/packages/date_time_plus",
+      "published": "2026-06-13T19:09:23.541519Z",
+      "summary": "Date and time picking and conversion functions with dependency updates"
+    },
+    {
+      "title": "v3.0.5 of mongo_realtime",
+      "url": "https://pub.dev/packages/mongo_realtime",
+      "published": "2026-06-13T19:06:55.883655Z",
+      "summary": "Dart package for real-time MongoDB changes with web platform reconnect support"
+    },
+    {
+      "title": "v4.0.0-dev.3 of freezed",
+      "url": "https://pub.dev/packages/freezed",
+      "published": "2026-06-13T18:54:30.456593Z",
+      "summary": "Code generation for immutable classes with fix for immutable collections"
+    },
+    {
+      "title": "v1.5.1 of moarch",
+      "url": "https://pub.dev/packages/moarch",
+      "published": "2026-06-13T18:24:48.113048Z",
+      "summary": "Flutter CLI scaffolding Clean Architecture projects with Riverpod and FVM"
+    },
+    {
+      "title": "v2.1.0 of flutter_artist_styles",
+      "url": "https://pub.dev/packages/flutter_artist_styles",
+      "published": "2026-06-13T18:24:00.737690Z",
+      "summary": "Modular design system package with centralized theme tokens and typography"
+    },
+    {
+      "title": "v1.5.1 of dloader",
+      "url": "https://pub.dev/packages/dloader",
+      "published": "2026-06-13T18:14:50.299134Z",
+      "summary": "File download library with adapter support and fixed CurlAdapter byte parsing"
+    },
+    {
+      "title": "v0.33.0 of xelis_dart_sdk",
+      "url": "https://pub.dev/packages/xelis_dart_sdk",
+      "published": "2026-06-13T18:01:45.542198Z",
+      "summary": "SDK for XELIS Blockchain with breaking transaction response alignment changes"
+    },
+    {
+      "title": "v0.1.0 of polyboard",
+      "url": "https://pub.dev/packages/polyboard",
+      "published": "2026-06-13T17:57:13.004062Z",
+      "summary": "Multilingual draggable on-screen keyboard for Flutter with multiple layouts"
+    },
+    {
+      "title": "v0.6.0 of modular_api",
+      "url": "https://pub.dev/packages/modular_api",
+      "published": "2026-06-13T17:38:43.780353Z",
+      "summary": "Use-case centric API toolkit for Dart with coordinated ecosystem release"
+    },
+    {
+      "title": "v0.1.0 of admob_nextgen",
+      "url": "https://pub.dev/packages/admob_nextgen",
+      "published": "2026-06-13T17:36:01.994941Z",
+      "summary": "Flutter plugin for Google Mobile Ads Next-Gen SDK marked as stable"
+    },
+    {
+      "title": "v1.0.0 of vio",
+      "url": "https://pub.dev/packages/vio",
+      "published": "2026-06-13T17:23:44.797756Z",
+      "summary": "Lightweight modular Dart backend framework with multi-transport handler gateway"
+    },
+    {
+      "title": "v4.0.9 of flutter_soloud",
+      "url": "https://pub.dev/packages/flutter_soloud",
+      "published": "2026-06-13T16:04:21.420608Z",
+      "summary": "Low-level audio plugin for Flutter games based on SoLoud with Windows fix"
+    },
+    {
+      "title": "v0.2.0 of flutter_better_auth",
+      "url": "https://pub.dev/packages/flutter_better_auth",
+      "published": "2026-06-13T16:01:36.044866Z",
+      "summary": "Dart/Flutter client for Better Auth with corrected request parameter types"
+    },
+    {
+      "title": "v1.0.1 of pray_calc_dart",
+      "url": "https://pub.dev/packages/pray_calc_dart",
+      "published": "2026-06-13T15:53:51.337190Z",
+      "summary": "Islamic prayer times for Dart with timezone-independent calculation"
+    },
+    {
+      "title": "v1.0.1 of hijri_core",
+      "url": "https://pub.dev/packages/hijri_core",
+      "published": "2026-06-13T15:53:36.337190Z",
+      "summary": "Hijri/Gregorian calendar conversion with normalized UTC calendar day handling"
+    },
+    {
+      "title": "v0.0.1 of aero_mvvm",
+      "url": "https://pub.dev/packages/aero_mvvm",
+      "published": "2026-06-13T15:50:52.795056Z",
+      "summary": "Zero-dependency MVVM state management framework with async handling"
+    },
+    {
+      "title": "v1.0.0 of dart_pdf_editor",
+      "url": "https://pub.dev/packages/dart_pdf_editor",
+      "published": "2026-06-13T14:57:54.301854Z",
+      "summary": "Flutter PDF viewer and editor with annotation tools and document comparison"
+    },
+    {
+      "title": "v1.0.0 of pdf_graphics",
+      "url": "https://pub.dev/packages/pdf_graphics",
+      "published": "2026-06-13T14:55:34.562332Z",
+      "summary": "PDF content interpreter with font engine and color space support"
+    },
+    {
+      "title": "v1.9.0-rc.41 of tree_sitter_language_pack",
+      "url": "https://pub.dev/packages/tree_sitter_language_pack",
+      "published": "2026-06-13T14:53:28.168154Z",
+      "summary": "Pre-compiled tree-sitter grammars for 306 programming languages"
+    },
+    {
+      "title": "v1.0.0 of pdf_document",
+      "url": "https://pub.dev/packages/pdf_document",
+      "published": "2026-06-13T14:53:15.685805Z",
+      "summary": "Document-level PDF semantics with annotations, forms, and signatures"
+    },
+    {
+      "title": "v1.0.0 of pdf_cos",
+      "url": "https://pub.dev/packages/pdf_cos",
+      "published": "2026-06-13T14:49:51.282647Z",
+      "summary": "COS object layer for PDF with filters, encryption, and serialization"
+    },
+    {
+      "title": "v1.2.0 of camera_desktop",
+      "url": "https://pub.dev/packages/camera_desktop",
+      "published": "2026-06-13T14:44:56.161534Z",
+      "summary": "Flutter camera plugin for desktop with optimized Windows initialization"
+    },
+    {
+      "title": "v0.2.1 of pqforge",
+      "url": "https://pub.dev/packages/pqforge",
+      "published": "2026-06-13T14:38:21.669176Z",
+      "summary": "Post-quantum and classical hybrid crypto with documentation and discovery release"
+    },
+    {
+      "title": "v3.0.0 of playwright_dart",
+      "url": "https://pub.dev/packages/playwright_dart",
+      "published": "2026-06-13T14:24:57.299936Z",
+      "summary": "Dart port of Playwright with breaking API migration to strongly-typed structures"
+    },
+    {
+      "title": "v10.3.0 of dicebear_core",
+      "url": "https://pub.dev/packages/dicebear_core",
+      "published": "2026-06-13T14:15:14.653854Z",
+      "summary": "Unique avatars from multiple styles with generator comment in SVG output"
+    },
+    {
+      "title": "v1.2.1 of fast_clean_generator",
+      "url": "https://pub.dev/packages/fast_clean_generator",
+      "published": "2026-06-13T14:11:58.518890Z",
+      "summary": "Code generator for Clean Architecture with headless mode for CI/CD integration"
+    }
+  ]
+}

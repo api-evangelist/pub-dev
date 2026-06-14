@@ -1,0 +1,73 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebAPI",
+  "name": "pub.dev Packages API",
+  "description": "The official package repository for Dart and Flutter apps, maintained by Google. Provides a REST API for searching packages, retrieving package metadata and version information, downloading package archives, and accessing publisher and scoring information.",
+  "url": "https://pub.dev/help/api",
+  "image": "https://pub.dev/favicon.ico",
+  "termsOfService": "https://developers.google.com/terms/",
+  "provider": {
+    "@type": "Organization",
+    "name": "pub.dev",
+    "url": "https://pub.dev/",
+    "email": "support@pub.dev",
+    "sameAs": [
+      "https://github.com/dart-lang/pub-dev"
+    ]
+  },
+  "documentation": "https://pub.dev/help/api",
+  "license": "https://www.google.com/intl/en/policies/privacy/",
+  "keywords": [
+    "Dart",
+    "Flutter",
+    "Package Registry",
+    "Package Management",
+    "Open Source"
+  ],
+  "availableChannel": {
+    "@type": "ServiceChannel",
+    "serviceUrl": "https://pub.dev/api"
+  },
+  "potentialAction": [
+    {
+      "@type": "SearchAction",
+      "name": "Search Packages",
+      "description": "Search for Dart and Flutter packages",
+      "target": "https://pub.dev/api/search?q={search_term}",
+      "query-input": "required name=search_term"
+    },
+    {
+      "@type": "ReadAction",
+      "name": "Get Package Metadata",
+      "description": "Retrieve metadata for a specific package",
+      "target": "https://pub.dev/api/packages/{package}",
+      "query-input": "required name=package"
+    },
+    {
+      "@type": "ReadAction",
+      "name": "Get Package Publisher",
+      "description": "Retrieve publisher information for a specific package",
+      "target": "https://pub.dev/api/packages/{package}/publisher",
+      "query-input": "required name=package"
+    },
+    {
+      "@type": "ReadAction",
+      "name": "Get Package Score",
+      "description": "Retrieve scoring data for a specific package including points, likes, and download counts",
+      "target": "https://pub.dev/api/packages/{package}/score",
+      "query-input": "required name=package"
+    },
+    {
+      "@type": "ReadAction",
+      "name": "Get Package Names",
+      "description": "Retrieve all package names for archiving or mirroring purposes",
+      "target": "https://pub.dev/api/package-names"
+    },
+    {
+      "@type": "ReadAction",
+      "name": "Get Package Name Completion Data",
+      "description": "Retrieve top package names for autocomplete functionality",
+      "target": "https://pub.dev/api/package-name-completion-data"
+    }
+  ]
+}
