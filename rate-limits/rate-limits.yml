@@ -1,0 +1,27 @@
+rateLimits:
+  documented: false
+  notes: pub.dev does not publish explicit rate limits for its public API. However,
+    the API documentation specifies minimum cache durations that consumers are expected
+    to honor to avoid excessive requests.
+  cachingRequirements:
+  - endpoint: GET /api/package-name-completion-data
+    description: Top package names for autocomplete
+    minimumCache: 8 hours
+    format: Gzip-compressed JSON
+  - endpoint: GET /api/package-names
+    description: Full paginated list of all package names
+    minimumCache: 2 hours
+    format: Gzip-compressed JSON
+  - endpoint: GET /api/packages/{package}/publisher
+    description: Publisher information for a specific package
+    minimumCache: 2 minutes
+  - endpoint: GET /api/packages/{package}/score
+    description: Scoring metrics for a specific package
+    minimumCache: 2 minutes
+  recommendations:
+  - Honor the documented minimum cache durations
+  - Avoid high-frequency polling of package metadata endpoints
+  - Use the completion data endpoint for autocomplete rather than full package name
+    listing
+  - Undocumented public endpoints may change without notice; rely only on documented
+    endpoints for production use

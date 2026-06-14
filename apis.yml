@@ -1,0 +1,74 @@
+name: pub.dev
+description: The official package repository for Dart and Flutter apps, maintained
+  by Google. Provides a REST API for searching packages, retrieving package metadata
+  and version information, downloading package archives, and accessing publisher and
+  scoring information.
+image: https://pub.dev/favicon.ico
+url: https://pub.dev/
+baseURL: https://pub.dev/api
+tags:
+- Dart
+- Flutter
+- Package Registry
+- Package Management
+- Open Source
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+apis:
+- name: pub.dev Packages API
+  description: Search for packages, retrieve package metadata, version details, publisher
+    information, and scoring data from the official Dart and Flutter package registry.
+  image: https://pub.dev/favicon.ico
+  humanURL: https://pub.dev/help/api
+  baseURL: https://pub.dev/api
+  tags:
+  - Dart
+  - Flutter
+  - Packages
+  - Registry
+  properties:
+  - type: Documentation
+    url: https://pub.dev/help/api
+  - type: TermsOfService
+    url: https://developers.google.com/terms/
+  - type: PrivacyPolicy
+    url: https://www.google.com/intl/en/policies/privacy/
+  - type: Security
+    url: https://pub.dev/security
+  - type: Contact
+    url: mailto:support@pub.dev
+  - type: StatusPage
+    url: https://status.dartlang.org/
+  - type: GitHubRepository
+    url: https://github.com/dart-lang/pub-dev
+  - type: Feed
+    url: https://pub.dev/feed.atom
+  contact:
+  - FN: pub.dev Support
+    email: support@pub.dev
+    url: https://pub.dev/help
+  x-apis-io-status: active
+  x-apis-io-type: public
+  x-apis-io-authentication: none
+  x-apis-io-plans: plans/plans.yml
+  x-apis-io-rate-limits: rate-limits/rate-limits.yml
+  x-apis-io-finops: finops/finops.yml
+common:
+- type: Documentation
+  url: https://pub.dev/help/api
+- type: TermsOfService
+  url: https://developers.google.com/terms/
+- type: PrivacyPolicy
+  url: https://www.google.com/intl/en/policies/privacy/
+- type: Security
+  url: https://pub.dev/security
+- type: Contact
+  url: mailto:support@pub.dev
+- type: Feed
+  url: https://pub.dev/feed.atom
+- type: GitHubRepository
+  url: https://github.com/dart-lang/pub-dev
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com

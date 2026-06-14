@@ -1,0 +1,18 @@
+finops:
+  model: free
+  cost: $0
+  notes: The pub.dev API is provided free of charge by Google as part of its support
+    for the Dart and Flutter open-source ecosystems. There are no usage fees, subscription
+    tiers, or metered billing. All documented API endpoints are publicly accessible
+    without authentication or payment.
+  governedBy:
+  - name: Google API Terms of Service
+    url: https://developers.google.com/terms/
+  - name: Google Terms of Service
+    url: https://www.google.com/intl/en/policies/terms/
+  considerations:
+  - No API key required; no account registration needed
+  - Consumers should implement caching per documented minimums to reduce load
+  - Undocumented endpoints are not guaranteed stable and should not be relied upon
+    for production integrations
+  - The pub.dev source code is open source (BSD-3-Clause) and available at https://github.com/dart-lang/pub-dev

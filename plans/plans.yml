@@ -1,0 +1,27 @@
+plans:
+- name: Free
+  description: The pub.dev API is completely free to use with no paid tiers. All
+    endpoints are publicly accessible without authentication or subscription requirements.
+    The API is supported by Google as part of the Dart and Flutter ecosystem.
+  url: https://pub.dev/help/api
+  pricing: Free
+  rateLimit: none documented
+  authentication: none
+  features:
+  - Package name completion data
+  - Full package name listing with pagination
+  - Package metadata and version history
+  - Package archive downloads
+  - Publisher information
+  - Package scoring and metrics
+  - Package search
+  - RSS/Atom feed
+  cache:
+  - endpoint: /api/package-name-completion-data
+    minimumCacheDuration: 8 hours
+  - endpoint: /api/package-names
+    minimumCacheDuration: 2 hours
+  - endpoint: /api/packages/{package}/publisher
+    minimumCacheDuration: 2 minutes
+  - endpoint: /api/packages/{package}/score
+    minimumCacheDuration: 2 minutes
