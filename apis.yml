@@ -55,6 +55,10 @@ apis:
   x-apis-io-rate-limits: rate-limits/rate-limits.yml
   x-apis-io-finops: finops/finops.yml
 common:
+- type: VulnerabilityDisclosure
+  url: security/pub-dev-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/pub-dev-domain-security.yml
 - type: Documentation
   url: https://pub.dev/help/api
 - type: TermsOfService
