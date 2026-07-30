@@ -3,6 +3,18 @@ description: The official package repository for Dart and Flutter apps, maintain
   by Google. Provides a REST API for searching packages, retrieving package metadata
   and version information, downloading package archives, and accessing publisher and
   scoring information.
+accessModel:
+  pricing: free
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Free
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
 image: https://pub.dev/favicon.ico
 url: https://pub.dev/
 baseURL: https://pub.dev/api
