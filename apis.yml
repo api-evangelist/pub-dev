@@ -67,6 +67,9 @@ apis:
   x-apis-io-rate-limits: rate-limits/rate-limits.yml
   x-apis-io-finops: finops/finops.yml
 common:
+- type: License
+  name: BSD-3-Clause
+  url: https://github.com/dart-lang/pub-dev/blob/master/LICENSE
 - type: VulnerabilityDisclosure
   url: security/pub-dev-vulnerability-disclosure.yml
 - type: DomainSecurity
