@@ -3,6 +3,19 @@ description: The official package repository for Dart and Flutter apps, maintain
   by Google. Provides a REST API for searching packages, retrieving package metadata
   and version information, downloading package archives, and accessing publisher and
   scoring information.
+deliveryModel:
+  model: open-core
+  license: BSD-3-Clause
+  open_source: true
+  commercial: true
+  callable_host: false
+  label: Open core · an OSS project plus a commercial hosted product
+  confidence: high
+  source:
+  - license
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: unknown
@@ -73,6 +86,14 @@ apis:
   x-apis-io-rate-limits: rate-limits/rate-limits.yml
   x-apis-io-finops: finops/finops.yml
 common:
+- type: IssueTracker
+  url: https://github.com/dart-lang/pub-dev/issues
+- type: Releases
+  url: https://github.com/dart-lang/pub-dev/releases
+- type: CodeOfConduct
+  url: https://github.com/dart-lang/.github/blob/main/CODE_OF_CONDUCT.md
+- type: ContributionGuide
+  url: https://github.com/dart-lang/pub-dev/blob/master/CONTRIBUTING.md
 - type: License
   name: BSD-3-Clause
   url: https://github.com/dart-lang/pub-dev/blob/master/LICENSE
