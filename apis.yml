@@ -86,6 +86,12 @@ apis:
   x-apis-io-rate-limits: rate-limits/rate-limits.yml
   x-apis-io-finops: finops/finops.yml
 common:
+- type: Plans
+  url: plans/plans.yml
+- type: RateLimits
+  url: rate-limits/rate-limits.yml
+- type: FinOps
+  url: finops/finops.yml
 - type: Website
   url: https://pub.dev
 - type: IssueTracker
